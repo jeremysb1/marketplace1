@@ -1,8 +1,19 @@
+import Image from "next/image";
+
 function Header() {
   return (
-	<div>
-	  <h1>I am the header</h1>
-	</div>
+	<header>
+	  {/* left */}
+	  <div>
+	  	<Image src="https://links.papareact.com/qd3" layout="fill" />
+	  </div>
+
+	  {/* middle */}
+	  <div></div>
+
+	  {/* right */}
+	  <div></div>
+	</header>
   )
 }
 
