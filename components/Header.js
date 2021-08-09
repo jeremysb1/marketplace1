@@ -13,7 +13,7 @@ function Header() {
 	  	/>
 	  </div>
 
-	  {/* middle */}
+	  {/* middle - search */}
 	  <div></div>
 
 	  {/* right */}
