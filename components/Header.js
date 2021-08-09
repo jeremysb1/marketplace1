@@ -14,7 +14,9 @@ function Header() {
 	  </div>
 
 	  {/* middle - search */}
-	  <div></div>
+	  <div>
+	  	<input type="text" />
+	  </div>
 
 	  {/* right */}
 	  <div></div>
