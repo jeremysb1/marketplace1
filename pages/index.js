@@ -10,7 +10,7 @@ export default function Home() {
       </Head>
 
       <Header />
-      {/* Banner */}
+      <Banner />
 
     </div>
   );
