@@ -8,6 +8,9 @@ function Banner() {
   	    layout="fill"
   	    objectFit="cover"
   	  />
+  	  <div className="absolute top-1/2 w-full text-center">
+  	  	<p>Not sure where to go? Perfect.</p>
+  	  </div>
   	</div>
   )
 }
