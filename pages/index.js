@@ -19,12 +19,12 @@ export default function Home({ exploreData }) {
           <h2 className="text-4xl font-semibold pb-5">Explore Nearby</h2>
 
         {/* pull data from server - API endpoints */}
-        {exploreData?.map(item => (
+        {exploreData?.map(({ img, distance, location }) => (
           <SmallCard
-          key={item.img}
-            img={item.img} 
-            distance={item.distance} 
-            location={item.location} 
+            key={img}
+            img={img} 
+            distance={distance} 
+            location={location} 
           />
         ))}
         </section>
