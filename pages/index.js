@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Header from "../components/Header.js";
 import Banner from "../components/Banner.js";
 import SmallCard from "../components/SmallCard.js";
+import MediumCard from "../components/MediumCard.js";
 
 export default function Home({ exploreData, cardsData }) {
   return (
@@ -34,8 +35,12 @@ export default function Home({ exploreData, cardsData }) {
         <section>
           <h2 className="text-4xl font-semibold py-8">Live Anywhere</h2>
 
-          {cardsData.map(item => (
-            <MediumCard />
+          {cardsData?.map(({ img, title }) => (
+            <MediumCard
+              key={img}
+              img={img}
+              title={title}
+            />
           ))}
         </section>
       </main>
