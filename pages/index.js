@@ -36,11 +36,7 @@ export default function Home({ exploreData, cardsData }) {
           <h2 className="text-4xl font-semibold py-8">Live Anywhere</h2>
 
           {cardsData?.map(({ img, title }) => (
-            <MediumCard
-              key={img}
-              img={img}
-              title={title}
-            />
+            <MediumCard key={img} img={img} title={title} />
           ))}
         </section>
       </main>
@@ -52,7 +48,7 @@ export async function getStaticProps() {
   const exploreData = await fetch('https://links.papareact.com/pyp').
   then((res) => res.json());
 
-  const cardsData = await fetch("https://links.papareact.com/zp1").
+  const cardsData = await fetch('https://links.papareact.com/zp1').
   then((res) => res.json());
 
   return {
