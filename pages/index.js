@@ -20,7 +20,8 @@ export default function Home({ exploreData }) {
 
         {/* pull data from server - API endpoints */}
         {exploreData?.map(item => (
-          <SmallCard 
+          <SmallCard
+          key={item.img}
             img={item.img} 
             distance={item.distance} 
             location={item.location} 
