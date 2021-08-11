@@ -7,7 +7,7 @@ function MediumCard({ img, title }) {
   	  	<Image src={img} layout="fill" />
   	  </div>
   	</div>
-  );
+  );	
 }
 
 export default MediumCard;
