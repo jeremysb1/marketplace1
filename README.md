@@ -1,12 +1,12 @@
 # Marketplace
 
 
-## Technologies Used
+## Technologies/Techniques Used
 
-Next.js
-Tailwind CSS
-Static Rendering
-Server Side Rendering
+- Next.js
+- Tailwind CSS
+- Static Rendering
+- Server Side Rendering
 
 ## Preview
 
